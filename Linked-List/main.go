@@ -7,14 +7,7 @@ func main(){
 	info.Append(20)
 	info.Append(30)
 	info.Append(40)
-	info.Prepend(50)
-	info.Prepend(60)
-
+	info.Insert(1,100)
 	info.Display()
 
-	// info.Insert(2, 10) // (pos, val)
-	//
-	// info.Delete(2) // (pos, val)
-	//
-	// info.Display()
 }

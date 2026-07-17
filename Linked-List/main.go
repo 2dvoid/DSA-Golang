@@ -8,6 +8,7 @@ func main(){
 	info.Append(30)
 	info.Append(40)
 	info.Insert(1,100)
+	info.Delete(1)
 	info.Display()
 
 }
